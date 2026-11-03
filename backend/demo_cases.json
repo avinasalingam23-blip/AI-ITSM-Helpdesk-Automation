@@ -1,0 +1,7 @@
+[
+  {"name":"VPN incident","message":"My VPN is not connecting.","intent":"incident","status":"open","source":"KB-VPN"},
+  {"name":"Password self-heal","message":"My password has expired.","intent":"automation","status":"resolved","source":"KB-PASSWORD","action":"password_reset"},
+  {"name":"Outlook RAG","message":"How do I troubleshoot Outlook synchronisation?","intent":"knowledge","status":"answered","source":"KB-OUTLOOK"},
+  {"name":"VS Code provisioning","message":"I need Visual Studio Code.","intent":"service_request","status":"completed","source":"KB-SOFTWARE","action":"provision_vscode"},
+  {"name":"Unsupported question","message":"Who won the intergalactic chess tournament?","intent":"unknown","status":"needs_escalation"}
+]

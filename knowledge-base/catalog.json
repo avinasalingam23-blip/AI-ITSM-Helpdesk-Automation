@@ -1,0 +1,10 @@
+[
+  {"id":"KB-VPN","title":"VPN connection and authentication","category":"Network","file":"vpn.md","approved_actions":[]},
+  {"id":"KB-PASSWORD","title":"Expired password and safe reset","category":"Identity","file":"password-reset.md","approved_actions":["password_reset"]},
+  {"id":"KB-UNLOCK","title":"Locked account recovery","category":"Identity","file":"account-unlock.md","approved_actions":["account_unlock"]},
+  {"id":"KB-OUTLOOK","title":"Outlook synchronisation troubleshooting","category":"Messaging","file":"outlook.md","approved_actions":[]},
+  {"id":"KB-WIFI","title":"Corporate Wi-Fi connectivity","category":"Network","file":"wifi.md","approved_actions":[]},
+  {"id":"KB-PERFORMANCE","title":"Slow laptop and performance checks","category":"Hardware","file":"laptop-performance.md","approved_actions":[]},
+  {"id":"KB-SOFTWARE","title":"Visual Studio Code installation and approved software requests","category":"Software","file":"software-installation.md","approved_actions":["provision_vscode"]},
+  {"id":"KB-ACCESS","title":"Business application access requests","category":"Access","file":"application-access.md","approved_actions":[]}
+]
