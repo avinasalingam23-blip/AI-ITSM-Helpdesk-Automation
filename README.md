@@ -110,16 +110,44 @@ For a fresh demonstration, stop the backend and run:
 
 The reset targets labelled demo records and preserves original/manual tickets. See the [demo guide](docs/DEMO_GUIDE.md) for the full presentation sequence.
 
-## Screenshots
+## Application Screenshots
 
-Real application screenshots are pending. Images will be embedded when supplied; no generated UI images or missing-file image links are included.
+Explore the four application screens through these real captures. ServiceNow references, account recovery and software provisioning shown here belong to the labelled demo environment.
 
-| Screen | Caption | Intended image file |
-| --- | --- | --- |
-| Employee portal and chatbot | Employee messages, cited support guidance and request outcomes. | `docs/images/employee-portal.png` |
-| ITSM dashboard | Persisted ticket counts, incident status and software requests. | `docs/images/itsm-dashboard.png` |
-| AI analysis and workflow trace | Classification, evidence, validated demo state changes and audit events. | `docs/images/ai-analysis.png` |
-| Knowledge base and search results | Approved support articles and semantic retrieval passages. | `docs/images/knowledge-base.png` |
+[Employee portal](#employee-portal-and-chatbot) · [ITSM dashboard](#itsm-dashboard) · [AI analysis](#ai-analysis-and-workflow-trace) · [Knowledge base](#knowledge-base-and-semantic-search)
+
+### Employee Portal and Chatbot
+
+Self-service shortcuts for VPN, password recovery, Outlook and software requests, alongside a chatbot conversation showing an escalated unsupported question.
+
+![Employee portal with IT support shortcuts and an escalated chatbot conversation](screenshots/employee-portal.png)
+
+### ITSM Dashboard
+
+The ticket queue brings together existing records and demo workflows, with category, priority, status and clearly labelled mock ServiceNow references. This capture includes a completed software request and a resolved password incident.
+
+![ITSM dashboard showing the ticket queue, status filters, resolved incidents and a completed software request](screenshots/itsm-dashboard.png)
+
+### AI Analysis and Workflow Trace
+
+A completed Visual Studio Code request is shown with its service-request classification, software category and mock workflow trace.
+
+![AI analysis overview for a completed Visual Studio Code request, with classification and a mock workflow trace](screenshots/ai-analysis.png)
+
+<details>
+<summary>View classification and workflow details</summary>
+
+The additional view shows individual impact, medium urgency, P3 priority, retrieved knowledge and mock ServiceNow request creation.
+
+![Detailed AI analysis showing software request routing, knowledge retrieval and mock ServiceNow creation](screenshots/ai-workflow-trace.png)
+
+</details>
+
+### Knowledge Base and Semantic Search
+
+The knowledge screen shows the approved support library's search interface and retrieved Outlook passages, including article IDs and cosine similarity scores. The interface explicitly distinguishes similarity scores from probabilities.
+
+![Knowledge base showing semantic search results, Outlook source passages and similarity scores](screenshots/knowledge-base.png)
 
 ## Mock integrations and limitations
 
